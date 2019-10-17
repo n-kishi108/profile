@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: poppins, Helvetica, hiraginokakugo, 'ヒラギノ角ゴ', 'Arial', Yu-Gothic, '游ゴシック', Sans-serif;
+    color: rgb(40, 44, 52);
+}
+
+section {
+    display: block;
+    width: 100%;
+    padding: 100px 0;
+    .wrapper {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        h1.title {
+            font-size: 80px;
+            font-weight: 700;
+            color: #333;
+            line-height: 1.0875;
+            letter-spacing: 0em;
+            font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        article.card {
+            box-sizing: border-box;
+            width: calc(100% - 12px);
+            margin: 50px auto;
+            padding: 50px 100px;
+            background: #fff;
+            box-shadow: 4px 4px 16px #cdcdcd;
+            border-radius: 6px;
+            font-size: 0;
+            ul {
+                li {
+                    border-bottom: solid 1px #aaa;
+                    padding: 10px 25px;
+                }
+            }
+            div {
+                vertical-align: top;
+                width: 50%;
+                min-height: 55px;
+                font-size: 0;
+                display: inline-block;
+                h2 {
+                    color: #333;
+                    width: 100%;
+                    line-height: 55px;
+                    word-wrap: break-word;
+                }
+            }
+            div.k {
+                h2 {
+                    box-sizing: border-box;
+                    font-size: 36px;
+                    font-weight: 600;
+                }
+            }
+    
+            div.v {
+                h2 {
+                    box-sizing: border-box;
+                    font-size: 32px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+ul {
+    list-style: none;
+}

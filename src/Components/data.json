@@ -1,0 +1,41 @@
+{
+    "object": {
+        "profile": {
+            "ニックネーム": "Nori",
+            "年齢": 20,
+            "趣味": [
+                "プログラミング",
+                "乗り鉄",
+                "都市開発についての調査"
+            ],
+            "好きな食べ物": [
+                "肉",
+                "寿司",
+                "刺身",
+                "野菜"
+            ],
+            "好きなお酒": [
+                "ウイスキー・ロック",
+                "生ビール"
+            ]
+        },
+        "skills": {
+            "PHP": {
+                "exp": 5,
+                "icon": "https://img.icons8.com/officel/480/000000/php-logo.png"
+            },
+            "Java": {
+                "exp": 6,
+                "icon": "https://img.icons8.com/color/480/000000/java-coffee-cup-logo.png"
+            },
+            "JavaScript": {
+                "exp": 5,
+                "icon": "https://img.icons8.com/color/480/000000/javascript.png"
+            },
+            "Python": {
+                "exp": 1,
+                "icon": "https://img.icons8.com/color/480/000000/python.png"
+            }
+        }
+    }
+}

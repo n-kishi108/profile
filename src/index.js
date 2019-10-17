@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './reset.scss';
 import './index.css';
-import App from './App';
+import Header from './Header/Header';
+import Tops from './Tops/Tops';
+import About from './About/About';
+import Skills from './Skills/Skills';
+import Works from './Works/Works';
+import Blogs from './Blogs/Blogs';
+// import App from './App/App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+ReactDOM.render(<Header />, document.getElementById('header'));
+ReactDOM.render(<Tops />, document.getElementById('tops'));
+ReactDOM.render(<About />, document.getElementById('about'));
+ReactDOM.render(<Skills />, document.getElementById('skills'));
+ReactDOM.render(<Works />, document.getElementById('works'));
+ReactDOM.render(<Blogs />, document.getElementById('blogs'));
+// ReactDOM.render(<App />, document.getElementById('root'));
 serviceWorker.unregister();

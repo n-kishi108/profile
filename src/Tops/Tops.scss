@@ -1,0 +1,18 @@
+
+section#tops {
+    background: rgb(40, 44, 52);
+    @media(max-width: 375px) {
+        .wrapper {
+            height: calc(100vh - 50px);
+        }
+    }
+    @media(min-width: 376px) {
+        .wrapper {
+            height: calc(100vh / 3 * 2);
+        }
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}
